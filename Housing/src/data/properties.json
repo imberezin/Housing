@@ -1,0 +1,49 @@
+[
+  {
+    "Id": 1,
+    "Name": "Berezin House",
+    "SellRent": 1,
+    "Type": "House",
+    "Price": 12000,
+    "Image": "image0"
+  },
+  {
+    "Id": 2,
+    "Name": "Poly House",
+    "SellRent": 1,
+    "Type": "House",
+    "Price": 16000,
+    "Image": "image1"
+  },
+  {
+    "Id": 3,
+    "Name": "Lerman Vila",
+    "SellRent": 2,
+    "Type": "House",
+    "Price": 22000,
+    "Image": "image2"
+  },
+  {
+    "Id": 4,
+    "Name": "Br House",
+    "SellRent": 1,
+    "Type": "House",
+    "Price": 10000,
+    "Image": "image3"
+  },
+  {
+    "Id": 5,
+    "Name": "Mimon House",
+    "SellRent": 2,
+    "Type": "House",
+    "Price": 18000,
+    "Image": "image4"
+  },
+  {
+    "Id": 6,
+    "Name": "Tom Vila",
+    "SellRent": 1,
+    "Type": "House",
+    "Price": 30000
+  }
+]
