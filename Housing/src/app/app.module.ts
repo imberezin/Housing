@@ -3,6 +3,7 @@ import { HousingService } from './services/housing.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {HttpClientModule} from '@angular/common/http';
+import {FormsModule} from '@angular/forms'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -34,6 +35,7 @@ const appRoutes: Routes = [
     AppRoutingModule,
     HttpClientModule,
     RouterModule.forRoot(appRoutes),
+    FormsModule,
   ],
   providers: [
     HousingService,
