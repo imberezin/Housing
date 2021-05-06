@@ -17,6 +17,9 @@ import { UserLoginComponent } from './user/user-login/user-login.component';
 import { UserRegisterComponent } from './user/user-register/user-register.component';
 import { UserService } from './services/user.service';
 import { AlertifyService } from './services/alertify.service';
+import { AuthService } from './services/auth.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 
 const appRoutes: Routes = [
@@ -49,11 +52,15 @@ const appRoutes: Routes = [
     FormsModule,
     ReactiveFormsModule,
     CommonModule,
+    BrowserAnimationsModule,
+    BsDropdownModule.forRoot()
+
   ],
   providers: [
     HousingService,
     UserService,
     AlertifyService,
+    AuthService,
   ],
   bootstrap: [AppComponent]
 })

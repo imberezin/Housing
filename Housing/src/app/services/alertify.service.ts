@@ -6,6 +6,7 @@ import * as alertify from 'alertifyjs';
   providedIn: 'root'
 })
 export class AlertifyService {
+
 error(message: string) {
   alertify.error(message);
 }
