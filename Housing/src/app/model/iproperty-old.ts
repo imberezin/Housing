@@ -1,4 +1,4 @@
-export interface IProperty {
+export interface IPropertyOld {
   Id: number | null;
   Name: string | null;
   SellRent:number | null;
